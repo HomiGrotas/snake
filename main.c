@@ -123,7 +123,8 @@ void add_cube()
 // snake movement and collision
 void move() 
 {
-    signed int addX, addY, fill=BODY, preR, preC, tempR, tempC;
+    signed int addX, addY;
+    unsigned int fill=BODY, preR, preC, tempR, tempC;
     Cube* temp = snake.head -> next;
 
     preR = snake.head->row;
